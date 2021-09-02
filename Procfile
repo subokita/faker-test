@@ -1,0 +1,1 @@
+web: sanic main.app

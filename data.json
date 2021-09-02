@@ -1,0 +1,1522 @@
+{
+    "story_templates_1":[
+        "I heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. They were discussing about bringing {family_member} for an abortion",
+        "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that they are immune to law",
+        "{first_name} {last_name} posted on {social_media} that their {family_member} recently got an abortion",
+        "My colleague, {first_name} {last_name} boasted that they brought their {family_member} to an abortion clinic recently",
+        "I overheard a conversation between {first_name} {last_name} and their {family_member} at {establishment}",
+        "I got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
+        "I saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}"
+    ],
+    "story_templates_2" : [
+        "{first_name} went to a clinic in {clinic_city}, {clinic_county} county, {past}",
+        "{first_name} said they know a doctor in {clinic_city}, {clinic_county} county that can help them to perform it",
+        "{first_name} claimed to have a connection in {clinic_city}, {clinic_county} county",
+        "{first_name} said that they brought her to a clinic at {clinic_city} {past}",
+        "{first_name} said they are bringing her to a clinic at {clinic_city} {future}",
+        "{first_name} stated that they went to {clinic_city}, {clinic_county} county"
+    ],
+    "evidence_templates_1": [
+        "I saw {medium} on {social_media}",
+        "{first_name} were circulating {medium} on {social_media}",
+        "{first_name} were boasting {medium} on {social_media}",
+        "{first_name} told everyone around",
+        "{first_name} {social_media_action} {medium} on {social_media}",
+        "I saw {medium} on {last_name}'s {social_media} account",
+        "My coworker saw them going to the clinic"
+    ],
+    "medium":
+    [
+        "it",
+        "the text",
+        "a video",
+        "a photo",
+        "a picture",
+        "a photograph",
+        "the story",
+        "the message"
+    ],
+    "social_media_actions":
+    [
+        "posted",
+        "shared",
+        "tweeted",
+        "circulated",
+        "told"
+    ],
+    "past":
+    [
+        "last month",
+        "last week",
+        "2 weeks ago",
+        "3 weeks ago",
+        "2 days ago",
+        "3 days ago",
+        "last Monday",
+        "last Tuesday",
+        "last Wednesday",
+        "last Thursday",
+        "last Friday",
+        "last Saturday",
+        "last Sunday"
+    ],
+    "future":
+    [
+        "next month",
+        "next week",
+        "next 2 weeks",
+        "next 3 weeks",
+        "next 2 days",
+        "next 3 days",
+        "next Monday",
+        "next Tuesday",
+        "next Wednesday",
+        "next Thursday",
+        "next Friday",
+        "next Saturday",
+        "next Sunday"
+    ],
+    "family_members":
+    [
+        "grandma",
+        "nana",
+        "niece",
+        "daughter",
+        "cousin",
+        "mom",
+        "wife",
+        "mistress",
+        "waifu",
+        "mommy",
+        "momma",
+        "mama",
+        "girl",
+        "girlfriend",
+        "friend",
+        "aunt"
+    ],
+    "establishments":
+    [
+        "a cafe",
+        "a McDonald's",
+        "a Burger King",
+        "the office",
+        "a pub",
+        "Chick-fil-A",
+        "Chipotle",
+        "Whataburger"
+    ],
+    "social_medias":
+    [
+        "Instagram",
+        "Twitter",
+        "Facebook",
+        "LinkedIn",
+        "Discord",
+        "Telegram",
+        "WhatsApp",
+        "Gab",
+        "Gettr",
+        "Rumble",
+        "Grindr",
+        "Tindr",
+        "Deviant Art",
+        "OnlyFans",
+        "SnapChat",
+        "TikTok"
+    ],
+    "counties_cities":
+    [
+        {
+            "county": "Anderson",
+            "city": "Palestine"
+        },
+        {
+            "county": "Andrews",
+            "city": "Andrews"
+        },
+        {
+            "county": "Angelina",
+            "city": "Lufkin"
+        },
+        {
+            "county": "Aransas",
+            "city": "Rockport"
+        },
+        {
+            "county": "Archer",
+            "city": "Archer City"
+        },
+        {
+            "county": "Armstrong",
+            "city": "Claude"
+        },
+        {
+            "county": "Atascosa",
+            "city": "Jourdanton"
+        },
+        {
+            "county": "Austin",
+            "city": "Bellville"
+        },
+        {
+            "county": "Bailey",
+            "city": "Muleshoe"
+        },
+        {
+            "county": "Bandera",
+            "city": "Bandera"
+        },
+        {
+            "county": "Bastrop",
+            "city": "Bastrop"
+        },
+        {
+            "county": "Baylor",
+            "city": "Seymour"
+        },
+        {
+            "county": "Bee",
+            "city": "Beeville"
+        },
+        {
+            "county": "Bell",
+            "city": "Belton"
+        },
+        {
+            "county": "Bexar",
+            "city": "San Antonio"
+        },
+        {
+            "county": "Blanco",
+            "city": "Johnson City"
+        },
+        {
+            "county": "Borden",
+            "city": "Gail"
+        },
+        {
+            "county": "Bosque",
+            "city": "Meridian"
+        },
+        {
+            "county": "Bowie",
+            "city": "New Boston"
+        },
+        {
+            "county": "Brazoria",
+            "city": "Angleton"
+        },
+        {
+            "county": "Brazos",
+            "city": "Bryan"
+        },
+        {
+            "county": "Brewster",
+            "city": "Alpine"
+        },
+        {
+            "county": "Briscoe",
+            "city": "Silverton"
+        },
+        {
+            "county": "Brooks",
+            "city": "Falfurrias"
+        },
+        {
+            "county": "Brown",
+            "city": "Brownwood"
+        },
+        {
+            "county": "Burleson",
+            "city": "Caldwell"
+        },
+        {
+            "county": "Burnet",
+            "city": "Burnet"
+        },
+        {
+            "county": "Caldwell",
+            "city": "Lockhart"
+        },
+        {
+            "county": "Calhoun",
+            "city": "Port Lavaca"
+        },
+        {
+            "county": "Callahan",
+            "city": "Baird"
+        },
+        {
+            "county": "Cameron",
+            "city": "Brownsville"
+        },
+        {
+            "county": "Camp",
+            "city": "Pittsburg"
+        },
+        {
+            "county": "Carson",
+            "city": "Panhandle"
+        },
+        {
+            "county": "Cass",
+            "city": "Linden"
+        },
+        {
+            "county": "Castro",
+            "city": "Dimmitt"
+        },
+        {
+            "county": "Chambers",
+            "city": "Anahuac"
+        },
+        {
+            "county": "Cherokee",
+            "city": "Rusk"
+        },
+        {
+            "county": "Childress",
+            "city": "Childress"
+        },
+        {
+            "county": "Clay",
+            "city": "Henrietta"
+        },
+        {
+            "county": "Cochran",
+            "city": "Morton"
+        },
+        {
+            "county": "Coke",
+            "city": "Robert Lee"
+        },
+        {
+            "county": "Coleman",
+            "city": "Coleman"
+        },
+        {
+            "county": "Collin",
+            "city": "McKinney"
+        },
+        {
+            "county": "Collingsworth",
+            "city": "Wellington"
+        },
+        {
+            "county": "Colorado",
+            "city": "Columbus"
+        },
+        {
+            "county": "Comal",
+            "city": "New Braunfels"
+        },
+        {
+            "county": "Comanche",
+            "city": "Comanche"
+        },
+        {
+            "county": "Concho",
+            "city": "Paint Rock"
+        },
+        {
+            "county": "Cooke",
+            "city": "Gainesville"
+        },
+        {
+            "county": "Coryell",
+            "city": "Gatesville"
+        },
+        {
+            "county": "Cottle",
+            "city": "Paducah"
+        },
+        {
+            "county": "Crane",
+            "city": "Crane"
+        },
+        {
+            "county": "Crockett",
+            "city": "Ozona"
+        },
+        {
+            "county": "Crosby",
+            "city": "Crosbyton"
+        },
+        {
+            "county": "Culberson",
+            "city": "Van Horn"
+        },
+        {
+            "county": "Dallam",
+            "city": "Dalhart"
+        },
+        {
+            "county": "Dallas",
+            "city": "Dalla"
+        },
+        {
+            "county": "Dawson",
+            "city": "Lamesa"
+        },
+        {
+            "county": "Deaf Smith",
+            "city": "Hereford"
+        },
+        {
+            "county": "Delta",
+            "city": "Cooper"
+        },
+        {
+            "county": "Denton",
+            "city": "Denton"
+        },
+        {
+            "county": "DeWitt",
+            "city": "Cuero"
+        },
+        {
+            "county": "Dickens",
+            "city": "Dickens"
+        },
+        {
+            "county": "Dimmit",
+            "city": "Carrizo Springs"
+        },
+        {
+            "county": "Donley",
+            "city": "Clarendon"
+        },
+        {
+            "county": "Duval",
+            "city": "San Diego"
+        },
+        {
+            "county": "Eastland",
+            "city": "Eastland"
+        },
+        {
+            "county": "Ector",
+            "city": "Odessa"
+        },
+        {
+            "county": "Edwards",
+            "city": "Rocksprings"
+        },
+        {
+            "county": "Ellis",
+            "city": "Waxahachie"
+        },
+        {
+            "county": "El Paso",
+            "city": "El Paso"
+        },
+        {
+            "county": "Erath",
+            "city": "Stephenville"
+        },
+        {
+            "county": "Falls",
+            "city": "Marlin"
+        },
+        {
+            "county": "Fannin",
+            "city": "Bonham"
+        },
+        {
+            "county": "Fayette",
+            "city": "La Grange"
+        },
+        {
+            "county": "Fisher",
+            "city": "Roby"
+        },
+        {
+            "county": "Floyd",
+            "city": "Floydada"
+        },
+        {
+            "county": "Foard",
+            "city": "Crowell"
+        },
+        {
+            "county": "Fort Bend",
+            "city": "Richmond"
+        },
+        {
+            "county": "Franklin",
+            "city": "Mount Vernon"
+        },
+        {
+            "county": "Freestone",
+            "city": "Fairfield"
+        },
+        {
+            "county": "Frio",
+            "city": "Pearsall"
+        },
+        {
+            "county": "Gaines",
+            "city": "Seminole"
+        },
+        {
+            "county": "Galveston",
+            "city": "Galveston"
+        },
+        {
+            "county": "Garza",
+            "city": "Post"
+        },
+        {
+            "county": "Gillespie",
+            "city": "Fredericksburg"
+        },
+        {
+            "county": "Glasscock",
+            "city": "Garden City"
+        },
+        {
+            "county": "Goliad",
+            "city": "Goliad"
+        },
+        {
+            "county": "Gonzales",
+            "city": "Gonzales"
+        },
+        {
+            "county": "Gray",
+            "city": "Pampa"
+        },
+        {
+            "county": "Grayson",
+            "city": "Sherman"
+        },
+        {
+            "county": "Gregg",
+            "city": "Longview"
+        },
+        {
+            "county": "Grimes",
+            "city": "Anderson"
+        },
+        {
+            "county": "Guadalupe",
+            "city": "Seguin"
+        },
+        {
+            "county": "Hale",
+            "city": "Plainview"
+        },
+        {
+            "county": "Hall",
+            "city": "Memphis"
+        },
+        {
+            "county": "Hamilton",
+            "city": "Hamilton"
+        },
+        {
+            "county": "Hansford",
+            "city": "Spearman"
+        },
+        {
+            "county": "Hardeman",
+            "city": "Quanah"
+        },
+        {
+            "county": "Hardin",
+            "city": "Kountze"
+        },
+        {
+            "county": "Harris",
+            "city": "Houston"
+        },
+        {
+            "county": "Harrison",
+            "city": "Marshall"
+        },
+        {
+            "county": "Hartley",
+            "city": "Channing"
+        },
+        {
+            "county": "Haskell",
+            "city": "Haskell"
+        },
+        {
+            "county": "Hays",
+            "city": "San Marcos"
+        },
+        {
+            "county": "Hemphill",
+            "city": "Canadian"
+        },
+        {
+            "county": "Henderson",
+            "city": "Athens"
+        },
+        {
+            "county": "Hidalgo",
+            "city": "Edinburg"
+        },
+        {
+            "county": "Hill",
+            "city": "Hillsboro"
+        },
+        {
+            "county": "Hockley",
+            "city": "Levelland"
+        },
+        {
+            "county": "Hood",
+            "city": "Granbury"
+        },
+        {
+            "county": "Hopkins",
+            "city": "Sulphur Springs"
+        },
+        {
+            "county": "Houston",
+            "city": "Crockett"
+        },
+        {
+            "county": "Howard",
+            "city": "Big Spring"
+        },
+        {
+            "county": "Hudspeth",
+            "city": "Sierra Blanca"
+        },
+        {
+            "county": "Hunt",
+            "city": "Greenville"
+        },
+        {
+            "county": "Hutchinson",
+            "city": "Stinnett"
+        },
+        {
+            "county": "Irion",
+            "city": "Mertzon"
+        },
+        {
+            "county": "Jack",
+            "city": "Jacksboro"
+        },
+        {
+            "county": "Jackson",
+            "city": "Edna"
+        },
+        {
+            "county": "Jasper",
+            "city": "Jasper"
+        },
+        {
+            "county": "Jeff Davis",
+            "city": "Fort Davis"
+        },
+        {
+            "county": "Jefferson",
+            "city": "Beaumont"
+        },
+        {
+            "county": "Jim Hogg",
+            "city": "Hebbronville"
+        },
+        {
+            "county": "Jim Wells",
+            "city": "Alice"
+        },
+        {
+            "county": "Johnson",
+            "city": "Cleburne"
+        },
+        {
+            "county": "Jones",
+            "city": "Anson"
+        },
+        {
+            "county": "Karnes",
+            "city": "Karnes City"
+        },
+        {
+            "county": "Kaufman",
+            "city": "Kaufman"
+        },
+        {
+            "county": "Kendall",
+            "city": "Boerne"
+        },
+        {
+            "county": "Kenedy",
+            "city": "Sarita"
+        },
+        {
+            "county": "Kent",
+            "city": "Jayton"
+        },
+        {
+            "county": "Kerr",
+            "city": "Kerrville"
+        },
+        {
+            "county": "Kimble",
+            "city": "Junction"
+        },
+        {
+            "county": "King",
+            "city": "Guthrie"
+        },
+        {
+            "county": "Kinney",
+            "city": "Brackettville"
+        },
+        {
+            "county": "Kleberg",
+            "city": "Kingsville"
+        },
+        {
+            "county": "Knox",
+            "city": "Benjamin"
+        },
+        {
+            "county": "Lamar",
+            "city": "Paris"
+        },
+        {
+            "county": "Lamb",
+            "city": "Littlefield"
+        },
+        {
+            "county": "Lampasas",
+            "city": "Lampasas"
+        },
+        {
+            "county": "La Salle",
+            "city": "Cotulla"
+        },
+        {
+            "county": "Lavaca",
+            "city": "Hallettsville"
+        },
+        {
+            "county": "Lee",
+            "city": "Giddings"
+        },
+        {
+            "county": "Leon",
+            "city": "Centerville"
+        },
+        {
+            "county": "Liberty",
+            "city": "Liberty"
+        },
+        {
+            "county": "Limestone",
+            "city": "Groesbeck"
+        },
+        {
+            "county": "Lipscomb",
+            "city": "Lipscomb"
+        },
+        {
+            "county": "Live Oak",
+            "city": "George West"
+        },
+        {
+            "county": "Llano",
+            "city": "Llano"
+        },
+        {
+            "county": "Loving",
+            "city": "Mentone"
+        },
+        {
+            "county": "Lubbock",
+            "city": "Lubbock"
+        },
+        {
+            "county": "Lynn",
+            "city": "Tahoka"
+        },
+        {
+            "county": "McCulloch",
+            "city": "Brady"
+        },
+        {
+            "county": "McLennan",
+            "city": "Waco"
+        },
+        {
+            "county": "McMullen",
+            "city": "Tilden"
+        },
+        {
+            "county": "Madison",
+            "city": "Madisonville"
+        },
+        {
+            "county": "Marion",
+            "city": "Jefferson"
+        },
+        {
+            "county": "Martin",
+            "city": "Stanton"
+        },
+        {
+            "county": "Mason",
+            "city": "Mason"
+        },
+        {
+            "county": "Matagorda",
+            "city": "Bay City"
+        },
+        {
+            "county": "Maverick",
+            "city": "Eagle Pass"
+        },
+        {
+            "county": "Medina",
+            "city": "Hondo"
+        },
+        {
+            "county": "Menard",
+            "city": "Menard"
+        },
+        {
+            "county": "Midland",
+            "city": "Midland"
+        },
+        {
+            "county": "Milam",
+            "city": "Cameron"
+        },
+        {
+            "county": "Mills",
+            "city": "Goldthwaite"
+        },
+        {
+            "county": "Mitchell",
+            "city": "Colorado City"
+        },
+        {
+            "county": "Montague",
+            "city": "Montague"
+        },
+        {
+            "county": "Montgomery",
+            "city": "Conro"
+        },
+        {
+            "county": "Moore",
+            "city": "Dumas"
+        },
+        {
+            "county": "Morris",
+            "city": "Daingerfield"
+        },
+        {
+            "county": "Motley",
+            "city": "Matador"
+        },
+        {
+            "county": "Nacogdoches",
+            "city": "Nacogdoches"
+        },
+        {
+            "county": "Navarro",
+            "city": "Corsicana"
+        },
+        {
+            "county": "Newton",
+            "city": "Newton"
+        },
+        {
+            "county": "Nolan",
+            "city": "Sweetwater"
+        },
+        {
+            "county": "Nueces",
+            "city": "Corpus Christi"
+        },
+        {
+            "county": "Ochiltree",
+            "city": "Perryton"
+        },
+        {
+            "county": "Oldham",
+            "city": "Vega"
+        },
+        {
+            "county": "Orange",
+            "city": "Orange"
+        },
+        {
+            "county": "Palo Pinto",
+            "city": "Palo Pinto"
+        },
+        {
+            "county": "Panola",
+            "city": "Carthage"
+        },
+        {
+            "county": "Parker",
+            "city": "Weatherford"
+        },
+        {
+            "county": "Parmer",
+            "city": "Farwell"
+        },
+        {
+            "county": "Pecos",
+            "city": "Fort Stockton"
+        },
+        {
+            "county": "Polk",
+            "city": "Livingston"
+        },
+        {
+            "county": "Potter",
+            "city": "Amarillo"
+        },
+        {
+            "county": "Presidio",
+            "city": "Marfa"
+        },
+        {
+            "county": "Rains",
+            "city": "Emory"
+        },
+        {
+            "county": "Randall",
+            "city": "Canyon"
+        },
+        {
+            "county": "Reagan",
+            "city": "Big Lake"
+        },
+        {
+            "county": "Real",
+            "city": "Leakey"
+        },
+        {
+            "county": "Red River",
+            "city": "Clarksville"
+        },
+        {
+            "county": "Reeves",
+            "city": "Pecos"
+        },
+        {
+            "county": "Refugio",
+            "city": "Refugio"
+        },
+        {
+            "county": "Roberts",
+            "city": "Miami"
+        },
+        {
+            "county": "Robertson",
+            "city": "Franklin"
+        },
+        {
+            "county": "Rockwall",
+            "city": "Rockwall"
+        },
+        {
+            "county": "Runnels",
+            "city": "Ballinger"
+        },
+        {
+            "county": "Rusk",
+            "city": "Henderson"
+        },
+        {
+            "county": "Sabine",
+            "city": "Hemphill"
+        },
+        {
+            "county": "San Augustine",
+            "city": "San Augustine"
+        },
+        {
+            "county": "San Jacinto",
+            "city": "Coldspring"
+        },
+        {
+            "county": "San Patricio",
+            "city": "Sinton"
+        },
+        {
+            "county": "San Saba",
+            "city": "San Saba"
+        },
+        {
+            "county": "Schleicher",
+            "city": "Eldorado"
+        },
+        {
+            "county": "Scurry",
+            "city": "Snyder"
+        },
+        {
+            "county": "Shackelford",
+            "city": "Albany"
+        },
+        {
+            "county": "Shelby",
+            "city": "Center"
+        },
+        {
+            "county": "Sherman",
+            "city": "Stratford"
+        },
+        {
+            "county": "Smith",
+            "city": "Tyler"
+        },
+        {
+            "county": "Somervell",
+            "city": "Glen Rose"
+        },
+        {
+            "county": "Starr",
+            "city": "Rio Grande City"
+        },
+        {
+            "county": "Stephens",
+            "city": "Breckenridge"
+        },
+        {
+            "county": "Sterling",
+            "city": "Sterling City"
+        },
+        {
+            "county": "Stonewall",
+            "city": "Aspermont"
+        },
+        {
+            "county": "Sutton",
+            "city": "Sonora"
+        },
+        {
+            "county": "Swisher",
+            "city": "Tulia"
+        },
+        {
+            "county": "Tarrant",
+            "city": "Fort Worth"
+        },
+        {
+            "county": "Taylor",
+            "city": "Abilene"
+        },
+        {
+            "county": "Terrell",
+            "city": "Sanderson"
+        },
+        {
+            "county": "Terry",
+            "city": "Brownfield"
+        },
+        {
+            "county": "Throckmorton",
+            "city": "Throckmorton"
+        },
+        {
+            "county": "Titus",
+            "city": "Mount Pleasant"
+        },
+        {
+            "county": "Tom Green",
+            "city": "San Angelo"
+        },
+        {
+            "county": "Travis",
+            "city": "Austin"
+        },
+        {
+            "county": "Trinity",
+            "city": "Groveton"
+        },
+        {
+            "county": "Tyler",
+            "city": "Woodville"
+        },
+        {
+            "county": "Upshur",
+            "city": "Gilmer"
+        },
+        {
+            "county": "Upton",
+            "city": "Rankin"
+        },
+        {
+            "county": "Uvalde",
+            "city": "Uvalde"
+        },
+        {
+            "county": "Val Verde",
+            "city": "Del Rio"
+        },
+        {
+            "county": "Van Zandt",
+            "city": "Canton"
+        },
+        {
+            "county": "Victoria",
+            "city": "Victoria"
+        },
+        {
+            "county": "Walker",
+            "city": "Huntsville"
+        },
+        {
+            "county": "Waller",
+            "city": "Hempstead"
+        },
+        {
+            "county": "Ward",
+            "city": "Monahans"
+        },
+        {
+            "county": "Washington",
+            "city": "Brenham"
+        },
+        {
+            "county": "Webb",
+            "city": "Laredo"
+        },
+        {
+            "county": "Wharton",
+            "city": "Wharton"
+        },
+        {
+            "county": "Wheeler",
+            "city": "Wheeler"
+        },
+        {
+            "county": "Wichita",
+            "city": "Wichita Falls"
+        },
+        {
+            "county": "Wilbarger",
+            "city": "Vernon"
+        },
+        {
+            "county": "Willacy",
+            "city": "Raymondville"
+        },
+        {
+            "county": "Williamson",
+            "city": "Georgetown"
+        },
+        {
+            "county": "Wilson",
+            "city": "Floresville"
+        },
+        {
+            "county": "Winkler",
+            "city": "Kermit"
+        },
+        {
+            "county": "Wise",
+            "city": "Decatur"
+        },
+        {
+            "county": "Wood",
+            "city": "Quitman"
+        },
+        {
+            "county": "Yoakum",
+            "city": "Plains"
+        },
+        {
+            "county": "Young",
+            "city": "Graham"
+        },
+        {
+            "county": "Zapata",
+            "city": "Zapata"
+        },
+        {
+            "county": "Zavala",
+            "city": "Crystal City"
+        }
+    ],
+    "sponsors":
+    [
+        {
+            "first_name": "Greg",
+            "last_name": "Abbott"
+        },
+        {
+            "first_name": "Ted",
+            "last_name": "Cruz"
+        },
+        {
+            "first_name": "Andrew",
+            "last_name": "Murr"
+        },
+        {
+            "first_name": "Ben",
+            "last_name": "Leman"
+        },
+        {
+            "first_name": "Bob",
+            "last_name": "Hall"
+        },
+        {
+            "first_name": "Brad",
+            "last_name": "Buckley"
+        },
+        {
+            "first_name": "Brian",
+            "last_name": "Birdwell"
+        },
+        {
+            "first_name": "Briscoe",
+            "last_name": "Cain"
+        },
+        {
+            "first_name": "Brooks",
+            "last_name": "Landgraf"
+        },
+        {
+            "first_name": "Bryan",
+            "last_name": "Hughes"
+        },
+        {
+            "first_name": "Bryan",
+            "last_name": "Slaton"
+        },
+        {
+            "first_name": "Charles",
+            "last_name": "Anderson"
+        },
+        {
+            "first_name": "Charles",
+            "last_name": "Creighton"
+        },
+        {
+            "first_name": "Charles",
+            "last_name": "Perry"
+        },
+        {
+            "first_name": "Charles",
+            "last_name": "Schwertner"
+        },
+        {
+            "first_name": "Chris",
+            "last_name": "Paddie"
+        },
+        {
+            "first_name": "Cody",
+            "last_name": "Harris"
+        },
+        {
+            "first_name": "Cody",
+            "last_name": "Vasut"
+        },
+        {
+            "first_name": "Cole",
+            "last_name": "Hefner"
+        },
+        {
+            "first_name": "Craig",
+            "last_name": "Goldman"
+        },
+        {
+            "first_name": "Dan",
+            "last_name": "Huberty"
+        },
+        {
+            "first_name": "David",
+            "last_name": "Cook"
+        },
+        {
+            "first_name": "David",
+            "last_name": "Spiller"
+        },
+        {
+            "first_name": "Dawn",
+            "last_name": "Buckingham"
+        },
+        {
+            "first_name": "Dennis",
+            "last_name": "Paul"
+        },
+        {
+            "first_name": "Dewayne",
+            "last_name": "Burns"
+        },
+        {
+            "first_name": "Drew",
+            "last_name": "Darby"
+        },
+        {
+            "first_name": "Drew",
+            "last_name": "Springer"
+        },
+        {
+            "first_name": "Dustin",
+            "last_name": "Burrows"
+        },
+        {
+            "first_name": "Ed",
+            "last_name": "Thompson"
+        },
+        {
+            "first_name": "Eddie",
+            "last_name": "Lucio"
+        },
+        {
+            "first_name": "Ernest",
+            "last_name": "Bailes"
+        },
+        {
+            "first_name": "Four",
+            "last_name": "Price"
+        },
+        {
+            "first_name": "Gary",
+            "last_name": "Gates"
+        },
+        {
+            "first_name": "Gary",
+            "last_name": "Vandeaver"
+        },
+        {
+            "first_name": "Giovanni",
+            "last_name": "Capriglione"
+        },
+        {
+            "first_name": "Glenn",
+            "last_name": "Rogers"
+        },
+        {
+            "first_name": "Greg",
+            "last_name": "Bonnen"
+        },
+        {
+            "first_name": "Hugh",
+            "last_name": "Shine"
+        },
+        {
+            "first_name": "J.M.",
+            "last_name": "Lozano"
+        },
+        {
+            "first_name": "Jake",
+            "last_name": "Ellzey"
+        },
+        {
+            "first_name": "James",
+            "last_name": "Frank"
+        },
+        {
+            "first_name": "James",
+            "last_name": "White"
+        },
+        {
+            "first_name": "Jared",
+            "last_name": "Patterson"
+        },
+        {
+            "first_name": "Jay",
+            "last_name": "Dean"
+        },
+        {
+            "first_name": "Jeff",
+            "last_name": "Cason"
+        },
+        {
+            "first_name": "Jeff",
+            "last_name": "Leach"
+        },
+        {
+            "first_name": "Jim",
+            "last_name": "Murphy"
+        },
+        {
+            "first_name": "John",
+            "last_name": "Cyrier"
+        },
+        {
+            "first_name": "John",
+            "last_name": "Frullo"
+        },
+        {
+            "first_name": "John",
+            "last_name": "Kuempel"
+        },
+        {
+            "first_name": "John",
+            "last_name": "Raney"
+        },
+        {
+            "first_name": "Justin",
+            "last_name": "Holland"
+        },
+        {
+            "first_name": "Keith",
+            "last_name": "Bell"
+        },
+        {
+            "first_name": "Kelly",
+            "last_name": "Hancock"
+        },
+        {
+            "first_name": "Ken",
+            "last_name": "King"
+        },
+        {
+            "first_name": "Kyle",
+            "last_name": "Biedermann"
+        },
+        {
+            "first_name": "Larry",
+            "last_name": "Taylor"
+        },
+        {
+            "first_name": "Matt",
+            "last_name": "Krause"
+        },
+        {
+            "first_name": "Matt",
+            "last_name": "Schaefer"
+        },
+        {
+            "first_name": "Matthew",
+            "last_name": "Shaheen"
+        },
+        {
+            "first_name": "Mayes",
+            "last_name": "Middleton"
+        },
+        {
+            "first_name": "Mike",
+            "last_name": "Schofield"
+        },
+        {
+            "first_name": "Paul",
+            "last_name": "Bettencourt"
+        },
+        {
+            "first_name": "Phil",
+            "last_name": "King"
+        },
+        {
+            "first_name": "Phil",
+            "last_name": "Stephenson"
+        },
+        {
+            "first_name": "Reggie",
+            "last_name": "Smith"
+        },
+        {
+            "first_name": "Sam",
+            "last_name": "Harless"
+        },
+        {
+            "first_name": "Scott",
+            "last_name": "Sanford"
+        },
+        {
+            "first_name": "Stan",
+            "last_name": "Lambert"
+        },
+        {
+            "first_name": "Stephen",
+            "last_name": "Allison"
+        },
+        {
+            "first_name": "Steve",
+            "last_name": "Toth"
+        },
+        {
+            "first_name": "Tan",
+            "last_name": "Parker"
+        },
+        {
+            "first_name": "Terry",
+            "last_name": "Wilson"
+        },
+        {
+            "first_name": "Todd",
+            "last_name": "Hunter"
+        },
+        {
+            "first_name": "Tom",
+            "last_name": "Oliverson"
+        },
+        {
+            "first_name": "Tony",
+            "last_name": "Tinderholt"
+        },
+        {
+            "first_name": "Travis",
+            "last_name": "Clardy"
+        },
+        {
+            "first_name": "Trent",
+            "last_name": "Ashby"
+        },
+        {
+            "first_name": "William",
+            "last_name": "Metcalf"
+        },
+        {
+            "first_name": "Angela",
+            "last_name": "Paxton"
+        },
+        {
+            "first_name": "Candy",
+            "last_name": "Noble"
+        },
+        {
+            "first_name": "Cecil",
+            "last_name": "Bell"
+        },
+        {
+            "first_name": "Donna",
+            "last_name": "Campbell"
+        },
+        {
+            "first_name": "Jacey",
+            "last_name": "Jetton"
+        },
+        {
+            "first_name": "Jane",
+            "last_name": "Nelson"
+        },
+        {
+            "first_name": "Joan",
+            "last_name": "Huffman"
+        },
+        {
+            "first_name": "Lacey",
+            "last_name": "Hull"
+        },
+        {
+            "first_name": "Lois",
+            "last_name": "Kolkhorst"
+        },
+        {
+            "first_name": "Lynn",
+            "last_name": "Stucky"
+        },
+        {
+            "first_name": "Shelby",
+            "last_name": "Slawson"
+        },
+        {
+            "first_name": "Stephanie",
+            "last_name": "Klick"
+        },
+        {
+            "first_name": "Valoree",
+            "last_name": "Swanson"
+        }
+    ]
+}
