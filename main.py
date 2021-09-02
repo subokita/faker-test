@@ -2,16 +2,17 @@
 # -*- coding: utf-8 -*-
 
 import os
+import ujson
+import random
 from faker                         import Faker
 from faker.providers               import BaseProvider
 from faker.providers.address.en_US import Provider as AddressProvider
 from collections                   import OrderedDict
-import ujson
-import random
-from sanic import Sanic
-from sanic.response import text
+from sanic                         import Sanic
+from sanic.response                import text
 
-class TexanProvider( AddressProvider ):
+
+class AdlibProvider( AddressProvider ):
     states          = ('Texas',)
     states_abbr     = ('TX',)
     states_postcode = {'TX': (75503, 79999),}
@@ -51,10 +52,12 @@ class TexanProvider( AddressProvider ):
             'medium'             : random.choice( self.medium ),
         }
 
-        story_1 = story_template_1.format(**args)
+        story_1            = story_template_1.format(**args)
+        evidence_1         = evidence_template_1.format( **args )
+
+        # Well, consider using 'they', in the second sentence
         args['first_name'] = random.choice( (args['first_name'], 'They') )
-        story_2 = story_template_2.format( **args )
-        evidence_1 = evidence_template_1.format( **args )
+        story_2            = story_template_2.format( **args )
 
         result = f"""
 --- Part 1: Story ---
@@ -86,7 +89,7 @@ with open( "./data.json", 'r' ) as file:
         continue
 
 fake = Faker( {'en-US'} )
-fake.add_provider( TexanProvider )
+fake.add_provider( AdlibProvider )
 
 app = Sanic( 'adlib-generator')
 

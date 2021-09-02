@@ -6,24 +6,29 @@
         "My colleague, {first_name} {last_name} boasted that they brought their {family_member} to an abortion clinic recently",
         "I overheard a conversation between {first_name} {last_name} and their {family_member} at {establishment}",
         "I got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
-        "I saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}"
+        "I saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}",
+        "I was at {establishment} and I heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion"
     ],
     "story_templates_2" : [
         "{first_name} went to a clinic in {clinic_city}, {clinic_county} county, {past}",
         "{first_name} said they know a doctor in {clinic_city}, {clinic_county} county that can help them to perform it",
         "{first_name} claimed to have a connection in {clinic_city}, {clinic_county} county",
         "{first_name} said that they brought her to a clinic at {clinic_city} {past}",
-        "{first_name} said they are bringing her to a clinic at {clinic_city} {future}",
-        "{first_name} stated that they went to {clinic_city}, {clinic_county} county"
+        "{first_name} said they are bringing her again to the clinic at {clinic_city} {future}",
+        "{first_name} stated that they went to {clinic_city}, {clinic_county} county",
+        "{first_name} said that they will be visiting the clinic again {future} in {clinic_city}"
     ],
     "evidence_templates_1": [
         "I saw {medium} on {social_media}",
-        "{first_name} were circulating {medium} on {social_media}",
-        "{first_name} were boasting {medium} on {social_media}",
+        "{first_name} was boasting about it on {social_media}",
         "{first_name} told everyone around",
         "{first_name} {social_media_action} {medium} on {social_media}",
         "I saw {medium} on {last_name}'s {social_media} account",
-        "My coworker saw them going to the clinic"
+        "My coworker saw them going to the clinic",
+        "There's {medium} on {social_media} detailing the process",
+        "{first name} showed us the whole thing",
+        "We heard them discussing with their neighbor",
+        "We saw them picking their {family_member} up from the said clinic"
     ],
     "medium":
     [
@@ -39,10 +44,12 @@
     "social_media_actions":
     [
         "posted",
+        "showed",
         "shared",
         "tweeted",
         "circulated",
-        "told"
+        "told",
+        "was circulating",
     ],
     "past":
     [
