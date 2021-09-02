@@ -94,9 +94,7 @@ with open( "./data.json", 'r' ) as file:
 fake = Faker( {'en-US'} )
 fake.add_provider( TexanProvider )
 
-
 app = Sanic( 'adlib-generator')
-
 
 @app.get( "/" )
 async def generate( request ):
