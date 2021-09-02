@@ -99,3 +99,9 @@ app = Sanic( 'adlib-generator')
 @app.get( "/" )
 async def generate( request ):
     return text( fake.generate() )
+
+app.run(
+    host  = '0.0.0.0',
+    port  = os.environ.get('PORT') or 80,
+    debug = True
+)
