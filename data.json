@@ -9,7 +9,8 @@
         "I got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
         "I saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}",
         "I was at {establishment} and I heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion",
-        "{first_name} {last_name} was talking loudly with their {family_member} at {establishment} in {city} {county} about how their {family_member} need to have an abortion ASAP"
+        "{first_name} {last_name} was talking loudly with their {family_member} at {establishment} in {city} {county} about how their {family_member} need to have an abortion ASAP",
+        "I've recently witnessed the {family_member} of {first_name} {last_name} sinned, they had an abortion!"
     ],
     "story_templates_2":
     [

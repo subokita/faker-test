@@ -85,7 +85,7 @@ with open( "./data.json", 'r' ) as file:
     data = ujson.load( file )
 
     for key in data.keys():
-        setattr( TexanProvider, key, data[key] )
+        setattr( AdlibProvider, key, data[key] )
         continue
 
 fake = Faker( {'en-US'} )
