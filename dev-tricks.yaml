@@ -1,0 +1,6 @@
+tricks:
+- watchdog.tricks.ShellCommandTrick:
+    patterns        : ["*.py", "dev-tricks.yaml", "*.ini", "*.yml"]
+    shell_command   : "clear; \
+                      printf '\e]50;ClearScrollback\a'; python3 main.py"
+    wait_for_process: true
