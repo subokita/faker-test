@@ -1,1 +1,1 @@
-web: sanic main.app --host=0.0.0.0 -workers=4
+web: sanic main.app --host=0.0.0.0 --workers=4
