@@ -57,29 +57,23 @@ class TexanProvider( AddressProvider ):
         evidence_1 = evidence_template_1.format( **args )
 
         result = f"""
---- How do you think the law was violated? ---
+--- Part 1: Story ---
 
 {story_1}
 {story_2}
 
---- How did you obtain this evidence? ---
+--- Part 2: Evidence ---
 
 {evidence_1}
 
---- Clinic or Doctor this evidence relates to ---
+--- Part 3: Doctor's address ---
 {self.generator.street_address()}
 
---- City ---
-{clinic_location['city']}
-
---- State ---
-{self.generator.state()}
-
---- Zip ---
-{self.generator.postcode_in_state()}
-
---- County ---
-{clinic_location['county']}
+--- Part 4: Details ---
+City    : {clinic_location['city']}
+County  : {clinic_location['county']}
+State   : {self.generator.state()}
+Zip Code: {self.generator.postcode_in_state()}
         """
         return result
 
