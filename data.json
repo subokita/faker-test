@@ -1,5 +1,6 @@
 {
-    "story_templates_1":[
+    "story_templates_1":
+    [
         "I heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. They were discussing about bringing {family_member} for an abortion",
         "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that they are immune to law",
         "{first_name} {last_name} posted on {social_media} that their {family_member} recently got an abortion",
@@ -7,18 +8,22 @@
         "I overheard a conversation between {first_name} {last_name} and their {family_member} at {establishment}",
         "I got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
         "I saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}",
-        "I was at {establishment} and I heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion"
+        "I was at {establishment} and I heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion",
+        "{first_name} {last_name} was talking loudly with their {family_member} at {establishment} in {city} {county} about how their {family_member} need to have an abortion ASAP"
     ],
-    "story_templates_2" : [
+    "story_templates_2":
+    [
         "{first_name} went to a clinic in {clinic_city}, {clinic_county} county, {past}",
         "{first_name} said they know a doctor in {clinic_city}, {clinic_county} county that can help them to perform it",
         "{first_name} claimed to have a connection in {clinic_city}, {clinic_county} county",
         "{first_name} said that they brought her to a clinic at {clinic_city} {past}",
         "{first_name} said they are bringing her again to the clinic at {clinic_city} {future}",
         "{first_name} stated that they went to {clinic_city}, {clinic_county} county",
-        "{first_name} said that they will be visiting the clinic again {future} in {clinic_city}"
+        "{first_name} said that they will be visiting the clinic again {future} in {clinic_city}",
+        "{first_name} said that Jason Miller is experienced with it, and he will be visiting him {future} in {clinic_city} {clinic_county} county"
     ],
-    "evidence_templates_1": [
+    "evidence_templates_1":
+    [
         "I saw {medium} on {social_media}",
         "{first_name} was boasting about it on {social_media}",
         "{first_name} told everyone around",
@@ -28,7 +33,11 @@
         "There's {medium} on {social_media} detailing the process",
         "{first name} showed us the whole thing",
         "We heard them discussing with their neighbor",
-        "We saw them picking their {family_member} up from the said clinic"
+        "We saw them picking their {family_member} up from the said clinic",
+        "Jesus told me in my dream",
+        "I heard Joe Rogan talked about it on his podcast",
+        "Infowars BAYBEH",
+        "I took Ivermectin and the vision came to me"
     ],
     "medium":
     [
@@ -49,7 +58,7 @@
         "tweeted",
         "circulated",
         "told",
-        "was circulating",
+        "was circulating"
     ],
     "past":
     [
