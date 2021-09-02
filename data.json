@@ -21,7 +21,7 @@
         "{first_name} said they are bringing her again to the clinic at {clinic_city} {future}",
         "{first_name} stated that they went to {clinic_city}, {clinic_county} county",
         "{first_name} said that they will be visiting the clinic again {future} in {clinic_city}",
-        "{first_name} said that Jason Miller is experienced with it, and he will be visiting him {future} in {clinic_city} {clinic_county} county"
+        "{first_name} said that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county"
     ],
     "evidence_templates_1":
     [
