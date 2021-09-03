@@ -36,7 +36,7 @@ class AdlibProvider( AddressProvider ):
         }
 
         args = {
-            **random.choices( (sponsor, random_person), weights = (30, 70), k = 1 )[0],
+            **random.choices( (sponsor, random_person), weights = (70, 30), k = 1 )[0],
             **random.choice( self.counties_cities ),
             'clinic_city'  : clinic_location['city'],
             'clinic_county': clinic_location['county'],
