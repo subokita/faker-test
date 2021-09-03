@@ -12,7 +12,9 @@
             "{personal_pronoun} was at {establishment} and {personal_pronoun} heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion",
             "{first_name} {last_name} was talking loudly with their {family_member} at {establishment} in {city} ({county}) about how their {family_member} need to have an abortion ASAP",
             "I've recently witnessed the {family_member} of {first_name} {last_name} sinned, they had an abortion!",
-            "Somebody once told me that {first_name} {last_name} is not the sharpest tool in the shed, {first_name} bragged about bringing their {family_member} to an abortion"
+            "Somebody once told me that {first_name} {last_name} is not the sharpest tool in the shed, {first_name} bragged about bringing their {family_member} to an abortion",
+            "{first_name} {last_name} was talking loudly at {establishment} about assisting their {family_member} in getting an abortion",
+            "{first_name} {last_name} {talking_synonym} about paying their way to help their {family_member} to get an abortion"
         ],
         [
             "{first_name} went to a clinic in {clinic_city}, {clinic_county} county, {past}",
@@ -21,6 +23,9 @@
             "{first_name} {talking_synonym} to have a connection in {clinic_city}, {clinic_county}",
             "{first_name} {talking_synonym} that they brought her to a clinic at {clinic_city} {past}",
             "{first_name} {talking_synonym} they are bringing her again to the clinic at {clinic_city} {future}",
+            "{first_name} {talking_synonym} that they know a doctor in {clinic_county} county",
+            "{first_name} {talking_synonym} that they already paid someone in {clinic_city}",
+            "{first_name} {talking_synonym} about having it removed at the clinic ASAP",
             "{first_name} {talking_synonym} that they went to {clinic_city}, {clinic_county}",
             "{first_name} {talking_synonym} that they will be visiting the clinic again {future} in {clinic_city}",
             "{first_name} {talking_synonym} that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county",
@@ -33,8 +38,12 @@
             "They left the clinic bill at {establishment}",
             "{first_name} threw away some medical documents at {establishment}",
             "{personal_pronoun} saw {medium} on {social_media}",
+            "{first_name} was showing the photos on their phone",
+            "Ooof {personal_pronoun} saw the photo on {social_media}",
+            "{first_name} posted {medium} on group chat",
             "{first_name} were boasting about it on {social_media}",
             "{first_name} told everyone around",
+            "{first_name} were bragging about it to their friends",
             "{first_name} {social_media_action} {medium} on {social_media}",
             "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account",
             "My coworker saw them going to the clinic",
@@ -62,6 +71,7 @@
         [
             "The clinic is at {street}, {city}, {county} county, {state} {zipcode}",
             "{street}, {city}, {county} County, {state} {zipcode}",
+            "Pretty sure it's at {street}, {city}",
             "It was on {street}, {city}, {county} County, {state} {zipcode}",
             "A Planned Parenthood at {street}, {city}, {county} County, {state} {zipcode}",
             "I believe it's in {city}, {street}, {county} County, {state} {zipcode}"
@@ -75,6 +85,7 @@
         "told",
         "swore to god",
         "boasted",
+        "bragged"
         "stated"
     ],
     "personal_pronouns":
@@ -91,17 +102,21 @@
         "Ivermectin",
         "CLOROX™",
         "bleach",
-        "horse dewormer",
+        "the horse-dewormer",
         "hydrocloroquine",
-        "TidePod™"
+        "TidePod™",
+        "The Beer Crate Challenge"
     ],
     "mediums":
     [
         "it",
         "the text",
         "a video",
+        "a clip",
         "a photo",
+        "a photo of the clinic bill",
         "a picture",
+        "a picture of the removed fetus",
         "a photograph",
         "the story",
         "the message"
@@ -186,6 +201,7 @@
         "LinkedIn",
         "Discord",
         "Telegram",
+        "Reddit",
         "WhatsApp",
         "Gab",
         "Gettr",
