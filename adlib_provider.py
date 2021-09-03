@@ -58,7 +58,11 @@ class AdlibProvider( AddressProvider ):
             stories.append( story )
 
             # Well, consider using 'they', in the next sentences
-            args['first_name'] = random.choices( (args['first_name'], 'They'), weights = (70, 30), k = 1 )[0]
+            args['first_name'] = random.choices( (args['first_name'], 'they'), weights = (70, 30), k = 1 )[0]
+
+            if 'and' in args['personal_pronoun']:
+                args['personal_pronoun'] = random.choices( (args['personal_pronoun'], 'we'), weights = (30, 70), k = 1 )[0]
+
             continue
 
         evidences = []
