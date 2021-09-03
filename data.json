@@ -1,14 +1,14 @@
 {
     "story_templates_1":
     [
-        "I heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. They were discussing about bringing {family_member} for an abortion",
+        "{personal_pronoun} heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. They were discussing about bringing {family_member} for an abortion",
         "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that they are immune to law",
         "{first_name} {last_name} posted on {social_media} that their {family_member} recently got an abortion",
         "My colleague, {first_name} {last_name} boasted that they brought their {family_member} to an abortion clinic recently",
-        "I overheard a conversation between {first_name} {last_name} and their {family_member} at {establishment}",
-        "I got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
-        "I saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}",
-        "I was at {establishment} and I heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion",
+        "{personal_pronoun} overheard a conversation between {first_name} {last_name} and their {family_member} at {establishment}",
+        "{personal_pronoun} got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
+        "{personal_pronoun} saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}",
+        "{personal_pronoun} was at {establishment} and {personal_pronoun} heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion",
         "{first_name} {last_name} was talking loudly with their {family_member} at {establishment} in {city} ({county}) about how their {family_member} need to have an abortion ASAP",
         "I've recently witnessed the {family_member} of {first_name} {last_name} sinned, they had an abortion!",
         "Somebody once told me that {first_name} {last_name} is not the sharpest tool in the shed, {first_name} bragged about bringing their {family_member} to an abortion"
@@ -27,22 +27,40 @@
     ],
     "evidence_templates_1":
     [
-        "I saw {medium} on {social_media}",
+        "{personal_pronoun} saw {medium} on {social_media}",
         "{first_name} was boasting about it on {social_media}",
         "{first_name} told everyone around",
         "{first_name} {social_media_action} {medium} on {social_media}",
-        "I saw {medium} on {last_name}'s {social_media} account",
+        "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account",
         "My coworker saw them going to the clinic",
         "There's {medium} on {social_media} detailing the process",
         "{first name} showed us the whole thing",
-        "We heard them discussing with their neighbor",
-        "We saw them picking their {family_member} up from the said clinic",
+        "{personal_pronoun} heard them discussing with their neighbor",
+        "{personal_pronoun} saw them picking their {family_member} up from the said clinic",
         "Jesus told me in my dream",
         "God showed me, are you telling me that you don't believe in God?",
-        "I heard Joe Rogan talked about it on his podcast",
+        "{personal_pronoun} heard Joe Rogan talked about it on his podcast",
         "Infowars BAYBEH",
-        "I took Ivermectin and the vision came to me",
+        "Alex Jones showed it on Infowars",
+        "{personal_pronoun} took {covid_antidote} and the vision came to me",
         "{first_name} accidentally posted it along with their nude"
+    ],
+    "personal_pronouns":
+    [
+        "I",
+        "We",
+        "My friend and I",
+        "My mom and I",
+        "Todd and I"
+    ],
+    "covid_antidotes":
+    [
+        "Ivermectin",
+        "CLOROX™",
+        "bleach",
+        "horse dewormer",
+        "hydrocloroquine",
+        "TidePod™"
     ],
     "medium":
     [

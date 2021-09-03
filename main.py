@@ -50,6 +50,8 @@ class AdlibProvider( AddressProvider ):
             'past'               : random.choice( self.past ),
             'future'             : random.choice( self.future ),
             'medium'             : random.choice( self.medium ),
+            'covid_antidote'     : random.choice( self.covid_antidotes ),
+            'personal_pronoun'   : random.choice( self.personal_pronouns ),
         }
 
         story_1            = story_template_1.format(**args)
