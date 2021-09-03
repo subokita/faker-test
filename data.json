@@ -1,6 +1,6 @@
 {
-    "story_templates_1":
-    [
+    "story_templates":
+    [[
         "{personal_pronoun} heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. They were discussing about bringing {family_member} for an abortion",
         "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that they are immune to law",
         "{first_name} {last_name} posted on {social_media} that their {family_member} recently got an abortion",
@@ -13,37 +13,61 @@
         "I've recently witnessed the {family_member} of {first_name} {last_name} sinned, they had an abortion!",
         "Somebody once told me that {first_name} {last_name} is not the sharpest tool in the shed, {first_name} bragged about bringing their {family_member} to an abortion"
     ],
-    "story_templates_2":
     [
         "{first_name} went to a clinic in {clinic_city}, {clinic_county} county, {past}",
-        "{first_name} said they know a doctor in {clinic_city}, {clinic_county} county that can help them to perform it",
-        "{first_name} claimed to have a connection in {clinic_city}, {clinic_county}",
-        "{first_name} said that they brought her to a clinic at {clinic_city} {past}",
-        "{first_name} said they are bringing her again to the clinic at {clinic_city} {future}",
-        "{first_name} stated that they went to {clinic_city}, {clinic_county}",
-        "{first_name} said that they will be visiting the clinic again {future} in {clinic_city}",
-        "{first_name} said that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county",
-        "{first_name} swore to god that they will bring their {family_member} {future} to {clinic_city} {clinic_county}"
-    ],
-    "evidence_templates_1":
-    [
+        "{first_name} and their {family_member} were spotted at a Planned Parenthood in {clinic_city}, {clinic_county} county, {past}",
+        "{first_name} {talking_synonym} they know a doctor in {clinic_city}, {clinic_county} county that can help them to perform it",
+        "{first_name} {talking_synonym} to have a connection in {clinic_city}, {clinic_county}",
+        "{first_name} {talking_synonym} that they brought her to a clinic at {clinic_city} {past}",
+        "{first_name} {talking_synonym} they are bringing her again to the clinic at {clinic_city} {future}",
+        "{first_name} {talking_synonym} that they went to {clinic_city}, {clinic_county}",
+        "{first_name} {talking_synonym} that they will be visiting the clinic again {future} in {clinic_city}",
+        "{first_name} {talking_synonym} that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county",
+        "{first_name} {talking_synonym} that they will bring their {family_member} {future} to {clinic_city} {clinic_county}"
+    ]],
+    "evidence_templates":
+    [[
         "{personal_pronoun} saw {medium} on {social_media}",
         "{first_name} was boasting about it on {social_media}",
         "{first_name} told everyone around",
         "{first_name} {social_media_action} {medium} on {social_media}",
         "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account",
         "My coworker saw them going to the clinic",
+        "{personal_pronoun} saw them going to the clinic",
         "There's {medium} on {social_media} detailing the process",
-        "{first name} showed us the whole thing",
-        "{personal_pronoun} heard them discussing with their neighbor",
+        "{first_name} showed us the whole thing",
+        "{personal_pronoun} heard them discussing it with their neighbor",
         "{personal_pronoun} saw them picking their {family_member} up from the said clinic",
         "Jesus told me in my dream",
         "God showed me, are you telling me that you don't believe in God?",
         "{personal_pronoun} heard Joe Rogan talked about it on his podcast",
         "Infowars BAYBEH",
+        "Tucker Carlson showed it on FoxNews",
+        "It's in 1 John 2:9",
+        "It's in Matthew 7:1-5",
+        "It's in the Bible",
         "Alex Jones showed it on Infowars",
         "{personal_pronoun} took {covid_antidote} and the vision came to me",
-        "{first_name} accidentally posted it along with their nude"
+        "{first_name} accidentally posted it along with their nude",
+        "It's in Kevin McCarthy's phone records"
+    ]],
+    "clinic_templates":
+    [[
+        "The clinic is at {street}, {city}, {county} county, {state} {zipcode}",
+        "{street}, {city}, {county} County, {state} {zipcode}",
+        "It was on {street}, {city}, {county} County, {state} {zipcode}",
+        "A Planned Parenthood at {street}, {city}, {county} County, {state} {zipcode}",
+        "I believe it's in {city}, {street}, {county} County, {state} {zipcode}"
+    ]],
+    "talking_synonyms":
+    [
+        "said",
+        "uttered",
+        "claimed",
+        "told",
+        "swore to god",
+        "boasted",
+        "stated"
     ],
     "personal_pronouns":
     [
@@ -51,7 +75,8 @@
         "We",
         "My friend and I",
         "My mom and I",
-        "Todd and I"
+        "My dad and I",
+        "My son and I"
     ],
     "covid_antidotes":
     [
@@ -62,7 +87,7 @@
         "hydrocloroquine",
         "TidePod™"
     ],
-    "medium":
+    "mediums":
     [
         "it",
         "the text",
@@ -83,7 +108,7 @@
         "told",
         "was circulating"
     ],
-    "past":
+    "pasts":
     [
         "last month",
         "last week",
@@ -99,7 +124,7 @@
         "last Saturday",
         "last Sunday"
     ],
-    "future":
+    "futures":
     [
         "next month",
         "next week",

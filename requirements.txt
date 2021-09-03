@@ -1,4 +1,5 @@
 aiofiles==0.7.0
+click==8.0.1
 Faker==8.12.1
 httptools==0.3.0
 multidict==5.1.0
