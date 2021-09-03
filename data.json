@@ -33,7 +33,7 @@
             "They left the clinic bill at {establishment}",
             "{first_name} threw away some medical documents at {establishment}",
             "{personal_pronoun} saw {medium} on {social_media}",
-            "{first_name} was boasting about it on {social_media}",
+            "{first_name} were boasting about it on {social_media}",
             "{first_name} told everyone around",
             "{first_name} {social_media_action} {medium} on {social_media}",
             "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account",

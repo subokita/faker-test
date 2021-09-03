@@ -55,6 +55,7 @@ class AdlibProvider( AddressProvider ):
         for story_template in self.story_templates:
             story_line = random.choice( story_template )
             story      = story_line.format( **args )
+            story      = story[0].upper() + story[1:]
             stories.append( story )
 
             # Well, consider using 'they', in the next sentences
@@ -69,6 +70,7 @@ class AdlibProvider( AddressProvider ):
         for evidence_template in self.evidence_templates:
             evidence_line = random.choice( evidence_template )
             evidence      = evidence_line.format( **args )
+            evidence      = evidence[0].upper() + evidence[1:]
             evidences.append( evidence )
             continue
 
