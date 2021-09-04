@@ -2,8 +2,8 @@
     "story_templates":
     [
         [
-            "{personal_pronoun} heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. {target_pronoun} were discussing about bringing {family_member} for an abortion.",
-            "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that {target_pronoun} are immune to law.",
+            "{personal_pronoun} heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. {target_pronoun} was discussing about bringing {family_member} for an abortion.",
+            "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that {target_pronoun} is immune to law.",
             "{first_name} {last_name} posted on {social_media} that {target_possessive_pronoun} {family_member} recently got an abortion.",
             "My colleague, {first_name} {last_name} boasted that {target_pronoun} brought {target_possessive_pronoun} {family_member} to an abortion clinic recently.",
             "{personal_pronoun} overheard a conversation between {first_name} {last_name} and {target_possessive_pronoun} {family_member} at {establishment}.",
@@ -36,13 +36,14 @@
         [
             "They left the clinic bill at {establishment}.",
             "{target_pronoun} threw away some medical documents at {establishment}.",
-            "{personal_pronoun} saw {medium} on {social_media}.",
+            "{personal_pronoun} saw {medium} posted on {social_media}.",
             "{target_pronoun} was showing the photos on {target_possessive_pronoun} phone.",
             "Ooof {personal_pronoun} saw the photo on {social_media}.",
             "{target_pronoun} posted {medium} on group chat.",
-            "{target_pronoun} were boasting about it on {social_media}.",
+            "{target_pronoun} was boasting about it on {social_media}.",
             "{target_pronoun} told everyone around.",
-            "{target_pronoun} were bragging about it to {target_possessive_pronoun} friends.",
+            "{target_pronoun} accidentally mentioned about coming back from the clinic.",
+            "{target_pronoun} was bragging about it to {target_possessive_pronoun} friends.",
             "{target_pronoun} {social_media_action} {medium} on {social_media}.",
             "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account.",
             "My coworker saw them going to the clinic.",
