@@ -18,17 +18,17 @@
         [
             "{target_pronoun} went to a clinic in {clinic_city}, {clinic_county} county, {past}.",
             "{target_pronoun} and {target_possessive_pronoun} {family_member} were spotted at a Planned Parenthood in {clinic_city}, {clinic_county} county, {past}.",
-            "{target_pronoun} {talking_synonym} {target_pronoun} knows a doctor in {clinic_city}, {clinic_county} county that can help them perform it.",
+            "{first_name} {talking_synonym} {target_pronoun} knows a doctor in {clinic_city}, {clinic_county} county that can help them perform it.",
             "{target_pronoun} {talking_synonym} to have a connection in {clinic_city}, {clinic_county}.",
-            "{target_pronoun} {talking_synonym} that {target_pronoun} brought her to a clinic at {clinic_city} {past}.",
-            "{target_pronoun} {talking_synonym} {target_pronoun} is bringing her again to the clinic at {clinic_city} {future}.",
-            "{target_pronoun} {talking_synonym} that {target_pronoun} knows a doctor in {clinic_county} county.",
-            "{target_pronoun} {talking_synonym} that {target_pronoun} already paid someone in {clinic_city}.",
+            "{first_name} {talking_synonym} that {target_pronoun} brought her to a clinic at {clinic_city} {past}.",
+            "{first_name} {talking_synonym} that {target_pronoun} is bringing her again to the clinic at {clinic_city} {future}.",
+            "{first_name} {talking_synonym} that {target_pronoun} knows a doctor in {clinic_county} county.",
+            "{first_name} {talking_synonym} that {target_pronoun} already paid someone in {clinic_city}.",
             "{target_pronoun} {talking_synonym} about having it removed at the clinic ASAP.",
             "{target_pronoun} {talking_synonym} that they went to {clinic_city}, {clinic_county}.",
             "{target_pronoun} {talking_synonym} that they will be visiting the clinic again {future} in {clinic_city}.",
             "{target_pronoun} {talking_synonym} that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county.",
-            "{target_pronoun} {talking_synonym} that {target_pronoun} will bring {target_possessive_pronoun} {family_member} {future} to {clinic_city} {clinic_county}."
+            "{first_name} {talking_synonym} that {target_pronoun} will bring {target_possessive_pronoun} {family_member} {future} to {clinic_city} {clinic_county}."
         ]
     ],
     "evidence_templates":
