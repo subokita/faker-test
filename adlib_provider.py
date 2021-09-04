@@ -27,20 +27,64 @@ class AdlibProvider( AddressProvider ):
         return self.generator.parse( sampled['county'] )
 
 
+    def generate_target( self ):
+        sponsor = random.choice( self.sponsors )
+
+        if 'target_pronoun' not in sponsor:
+            sponsor['target_pronoun']            = 'they'
+            sponsor['target_possessive_pronoun'] = 'they'
+            sponsor['target_accusative_pronoun'] = 'they'
+            pass
+
+        # Let's assume that bigots are less often to use non-binary friendly pronouns
+        gender = random.choices( ('male', 'female', 'non-binary' ), weights = (50, 50, 20), k = 1 )[0]
+
+        if gender == 'male':
+            random_person   = {
+                'first_name'               : self.generator.first_name_male(),
+                'last_name'                : self.generator.last_name_male(),
+                'target_pronoun'           : 'he',
+                'target_possessive_pronoun': 'his',
+                'target_accusative_pronoun': 'him'
+            }
+            pass
+
+        elif gender == 'female':
+            random_person   = {
+                'first_name'               : self.generator.first_name_female(),
+                'last_name'                : self.generator.last_name_female(),
+                'target_pronoun'           : 'she',
+                'target_possessive_pronoun': 'her',
+                'target_accusative_pronoun': 'her'
+            }
+            pass
+
+        else:
+            random_person   = {
+                'first_name'               : self.generator.first_name_nonbinary(),
+                'last_name'                : self.generator.last_name_nonbinary(),
+                'target_pronoun'           : 'they',
+                'target_possessive_pronoun': 'their',
+                'target_accusative_pronoun': 'them'
+            }
+            pass
+
+        return random.choices( (sponsor, random_person), weights = (30, 70), k = 1 )[0]
+
+
+
+
     def generate( self ):
         clinic_location = random.choice( self.counties_cities )
-        sponsor         = random.choice( self.sponsors )
-        random_person   = {
-            'first_name': self.generator.first_name(),
-            'last_name' : self.generator.last_name(),
-        }
+
 
         args = {
-            **random.choices( (sponsor, random_person), weights = (70, 30), k = 1 )[0],
+            **self.generate_target(),
             **random.choice( self.counties_cities ),
             'clinic_city'  : clinic_location['city'],
             'clinic_county': clinic_location['county'],
         }
+
 
         # Load all the data that's a key => list of items pair
         for key, value in AdlibProvider.__dict__.items():
@@ -51,6 +95,10 @@ class AdlibProvider( AddressProvider ):
                 args[ key[:len(key)-1] ] = random.choice( value )
 
 
+        args['possessive_pronoun'] = 'my'  if args['personal_pronoun'].lower() == 'i' else 'our'
+        args['to_be']              = 'was' if args['personal_pronoun'].lower() == 'i' else 'were'
+
+
         stories = []
         for story_template in self.story_templates:
             story_line = random.choice( story_template )
@@ -59,19 +107,21 @@ class AdlibProvider( AddressProvider ):
             stories.append( story )
 
             # Well, consider using 'they', in the next sentences
-            args['first_name'] = random.choices( (args['first_name'], 'they'), weights = (70, 30), k = 1 )[0]
+            args['target_pronoun'] = random.choices( (args['first_name'], args['target_pronoun']), weights = (30, 70), k = 1 )[0]
 
-            if 'and' in args['personal_pronoun']:
-                args['personal_pronoun'] = random.choices( (args['personal_pronoun'], 'we'), weights = (30, 70), k = 1 )[0]
+            if args['personal_pronoun'].lower() != 'i':
+                args['personal_pronoun'] = random.choices( (args['personal_pronoun'], 'we'), weights = (20, 80), k = 1 )[0]
 
+            args['talking_synonym'] = random.choice( self.talking_synonyms )
             continue
 
+        emojis = [ '🥱', '🙊' ]
         evidences = []
-        for evidence_template in self.evidence_templates:
+        for index, evidence_template in enumerate( self.evidence_templates ):
             evidence_line = random.choice( evidence_template )
             evidence      = evidence_line.format( **args )
             evidence      = evidence[0].upper() + evidence[1:]
-            evidences.append( evidence )
+            evidences.append( emojis[index] + ' ' + evidence )
             continue
 
 

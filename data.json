@@ -2,56 +2,57 @@
     "story_templates":
     [
         [
-            "{personal_pronoun} heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. They were discussing about bringing {family_member} for an abortion",
-            "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that they are immune to law",
-            "{first_name} {last_name} posted on {social_media} that their {family_member} recently got an abortion",
-            "My colleague, {first_name} {last_name} boasted that they brought their {family_member} to an abortion clinic recently",
-            "{personal_pronoun} overheard a conversation between {first_name} {last_name} and their {family_member} at {establishment}",
-            "{personal_pronoun} got the news from {social_media}, where {first_name} {last_name} was openly talking about their {family_member} having an abortion",
-            "{personal_pronoun} saw {first_name} {last_name} bringing their {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}",
-            "{personal_pronoun} was at {establishment} and {personal_pronoun} heard {first_name} {last_name} on a phone call with their {family_member}, talking about having an abortion",
-            "{first_name} {last_name} was talking loudly with their {family_member} at {establishment} in {city} ({county}) about how their {family_member} need to have an abortion ASAP",
-            "I've recently witnessed the {family_member} of {first_name} {last_name} sinned, they had an abortion!",
-            "Somebody once told me that {first_name} {last_name} is not the sharpest tool in the shed, {first_name} bragged about bringing their {family_member} to an abortion",
-            "{first_name} {last_name} was talking loudly at {establishment} about assisting their {family_member} in getting an abortion",
-            "{first_name} {last_name} {talking_synonym} about paying their way to help their {family_member} to get an abortion"
+            "{personal_pronoun} heard {first_name} {last_name} talking at {establishment} in {city}, {county} county. {target_pronoun} were discussing about bringing {family_member} for an abortion.",
+            "My friend, {family_member} of {first_name} {last_name}, told me that she got an abortion after {first_name} {last_name} told her that {target_pronoun} are immune to law.",
+            "{first_name} {last_name} posted on {social_media} that {target_possessive_pronoun} {family_member} recently got an abortion.",
+            "My colleague, {first_name} {last_name} boasted that {target_pronoun} brought {target_possessive_pronoun} {family_member} to an abortion clinic recently.",
+            "{personal_pronoun} overheard a conversation between {first_name} {last_name} and {target_possessive_pronoun} {family_member} at {establishment}.",
+            "{personal_pronoun} got the news from {social_media}, where {first_name} {last_name} was openly talking about {target_possessive_pronoun} {family_member} having an abortion.",
+            "{personal_pronoun} saw {first_name} {last_name} bringing {target_possessive_pronoun} {family_member} to a Planned Parenthood clinic at {clinic_city} {clinic_county} {past}.",
+            "{personal_pronoun} {to_be} at {establishment} and {personal_pronoun} heard {first_name} {last_name} on a phone call with {target_possessive_pronoun} {family_member}, talking about having an abortion.",
+            "{first_name} {last_name} was talking loudly with {target_possessive_pronoun} {family_member} at {establishment} in {city} ({county}) about how {target_possessive_pronoun} {family_member} needs to have an abortion ASAP.",
+            "{personal_pronoun} have recently witnessed the {family_member} of {first_name} {last_name} sinned, they had an abortion!.",
+            "{first_name} {last_name} was talking loudly at {establishment} about assisting {target_possessive_pronoun} {family_member} in getting an abortion.",
+            "{first_name} {last_name} {talking_synonym} about paying {target_possessive_pronoun} way to help {target_possessive_pronoun} {family_member} to get an abortion."
         ],
         [
-            "{first_name} went to a clinic in {clinic_city}, {clinic_county} county, {past}",
-            "{first_name} and their {family_member} were spotted at a Planned Parenthood in {clinic_city}, {clinic_county} county, {past}",
-            "{first_name} {talking_synonym} they know a doctor in {clinic_city}, {clinic_county} county that can help them to perform it",
-            "{first_name} {talking_synonym} to have a connection in {clinic_city}, {clinic_county}",
-            "{first_name} {talking_synonym} that they brought her to a clinic at {clinic_city} {past}",
-            "{first_name} {talking_synonym} they are bringing her again to the clinic at {clinic_city} {future}",
-            "{first_name} {talking_synonym} that they know a doctor in {clinic_county} county",
-            "{first_name} {talking_synonym} that they already paid someone in {clinic_city}",
-            "{first_name} {talking_synonym} about having it removed at the clinic ASAP",
-            "{first_name} {talking_synonym} that they went to {clinic_city}, {clinic_county}",
-            "{first_name} {talking_synonym} that they will be visiting the clinic again {future} in {clinic_city}",
-            "{first_name} {talking_synonym} that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county",
-            "{first_name} {talking_synonym} that they will bring their {family_member} {future} to {clinic_city} {clinic_county}"
+            "{target_pronoun} went to a clinic in {clinic_city}, {clinic_county} county, {past}.",
+            "{target_pronoun} and {target_possessive_pronoun} {family_member} were spotted at a Planned Parenthood in {clinic_city}, {clinic_county} county, {past}.",
+            "{target_pronoun} {talking_synonym} {target_pronoun} knows a doctor in {clinic_city}, {clinic_county} county that can help them perform it.",
+            "{target_pronoun} {talking_synonym} to have a connection in {clinic_city}, {clinic_county}.",
+            "{target_pronoun} {talking_synonym} that {target_pronoun} brought her to a clinic at {clinic_city} {past}.",
+            "{target_pronoun} {talking_synonym} {target_pronoun} is bringing her again to the clinic at {clinic_city} {future}.",
+            "{target_pronoun} {talking_synonym} that {target_pronoun} knows a doctor in {clinic_county} county.",
+            "{target_pronoun} {talking_synonym} that {target_pronoun} already paid someone in {clinic_city}.",
+            "{target_pronoun} {talking_synonym} about having it removed at the clinic ASAP.",
+            "{target_pronoun} {talking_synonym} that they went to {clinic_city}, {clinic_county}.",
+            "{target_pronoun} {talking_synonym} that they will be visiting the clinic again {future} in {clinic_city}.",
+            "{target_pronoun} {talking_synonym} that Jason Miller is experienced with it, and they will be visiting him {future} in {clinic_city} {clinic_county} county.",
+            "{target_pronoun} {talking_synonym} that {target_pronoun} will bring {target_possessive_pronoun} {family_member} {future} to {clinic_city} {clinic_county}."
         ]
     ],
     "evidence_templates":
     [
         [
-            "They left the clinic bill at {establishment}",
-            "{first_name} threw away some medical documents at {establishment}",
-            "{personal_pronoun} saw {medium} on {social_media}",
-            "{first_name} was showing the photos on their phone",
-            "Ooof {personal_pronoun} saw the photo on {social_media}",
-            "{first_name} posted {medium} on group chat",
-            "{first_name} were boasting about it on {social_media}",
-            "{first_name} told everyone around",
-            "{first_name} were bragging about it to their friends",
-            "{first_name} {social_media_action} {medium} on {social_media}",
-            "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account",
-            "My coworker saw them going to the clinic",
-            "{personal_pronoun} saw them going to the clinic",
-            "There's {medium} on {social_media} detailing the process",
-            "{first_name} showed us the whole thing",
-            "{personal_pronoun} heard them discussing it with their neighbor",
-            "{personal_pronoun} saw them picking their {family_member} up from the said clinic",
+            "They left the clinic bill at {establishment}.",
+            "{target_pronoun} threw away some medical documents at {establishment}.",
+            "{personal_pronoun} saw {medium} on {social_media}.",
+            "{target_pronoun} was showing the photos on {target_possessive_pronoun} phone.",
+            "Ooof {personal_pronoun} saw the photo on {social_media}.",
+            "{target_pronoun} posted {medium} on group chat.",
+            "{target_pronoun} were boasting about it on {social_media}.",
+            "{target_pronoun} told everyone around.",
+            "{target_pronoun} were bragging about it to {target_possessive_pronoun} friends.",
+            "{target_pronoun} {social_media_action} {medium} on {social_media}.",
+            "{personal_pronoun} saw {medium} on {last_name}'s {social_media} account.",
+            "My coworker saw them going to the clinic.",
+            "{personal_pronoun} saw them going to the clinic.",
+            "There's {medium} on {social_media} detailing the process.",
+            "{target_pronoun} showed us the whole thing.",
+            "{personal_pronoun} heard them discussing it with {target_possessive_pronoun} neighbor.",
+            "{personal_pronoun} saw them picking {target_possessive_pronoun} {family_member} up from the said clinic."
+        ],
+        [
             "Jesus told me in my dream",
             "God showed me, are you telling me that you don't believe in God?",
             "{personal_pronoun} heard Joe Rogan talked about it on his podcast",
@@ -62,7 +63,7 @@
             "It's in the Bible",
             "Alex Jones showed it on Infowars",
             "{personal_pronoun} took {covid_antidote} and the vision came to me",
-            "{first_name} accidentally posted it along with their nude",
+            "{target_pronoun} accidentally posted it along with {target_possessive_pronoun} nude",
             "It's in Kevin McCarthy's phone records"
         ]
     ],
@@ -95,7 +96,8 @@
         "My friend and I",
         "My mom and I",
         "My dad and I",
-        "My son and I"
+        "My son and I",
+        "My daughter and I"
     ],
     "covid_antidotes":
     [
@@ -166,21 +168,35 @@
     "family_members":
     [
         "grandma",
-        "nana",
         "niece",
         "daughter",
         "cousin",
+        "mother",
         "mom",
-        "wife",
-        "mistress",
-        "waifu",
         "mommy",
         "momma",
         "mama",
+        "mistress",
+        "wife",
+        "waifu",
         "girl",
         "girlfriend",
+        "sister",
+        "sis",
         "friend",
         "aunt"
+    ],
+    "activitys":
+    [
+        "having lunch",
+        "having dinner",
+        "having breakfast",
+        "watching baseball match",
+        "watching concert",
+        "walking around",
+        "driving around",
+        "shopping",
+        "drinking"
     ],
     "establishments":
     [
@@ -188,10 +204,16 @@
         "a McDonald's",
         "a Burger King",
         "the office",
+        "a clinic",
         "a pub",
-        "Chick-fil-A",
-        "Chipotle",
-        "Whataburger"
+        "a Chick-fil-A",
+        "a Chipotle",
+        "a Whataburger",
+        "the park",
+        "the factory",
+        "a shop",
+        "a store",
+        "a gas station"
     ],
     "social_medias":
     [
@@ -1236,375 +1258,654 @@
     [
         {
             "first_name": "Greg",
-            "last_name": "Abbott"
+            "last_name": "Abbott",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Ted",
-            "last_name": "Cruz"
+            "last_name": "Cruz",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Andrew",
-            "last_name": "Murr"
+            "last_name": "Murr",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Ben",
-            "last_name": "Leman"
+            "last_name": "Leman",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Bob",
-            "last_name": "Hall"
+            "last_name": "Hall",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Brad",
-            "last_name": "Buckley"
+            "last_name": "Buckley",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Brian",
-            "last_name": "Birdwell"
+            "last_name": "Birdwell",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Briscoe",
-            "last_name": "Cain"
+            "last_name": "Cain",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Brooks",
-            "last_name": "Landgraf"
+            "last_name": "Landgraf",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Bryan",
-            "last_name": "Hughes"
+            "last_name": "Hughes",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Bryan",
-            "last_name": "Slaton"
+            "last_name": "Slaton",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Charles",
-            "last_name": "Anderson"
+            "last_name": "Anderson",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Charles",
-            "last_name": "Creighton"
+            "last_name": "Creighton",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Charles",
-            "last_name": "Perry"
+            "last_name": "Perry",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Charles",
-            "last_name": "Schwertner"
+            "last_name": "Schwertner",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Chris",
-            "last_name": "Paddie"
+            "last_name": "Paddie",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Cody",
-            "last_name": "Harris"
+            "last_name": "Harris",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Cody",
-            "last_name": "Vasut"
+            "last_name": "Vasut",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Cole",
-            "last_name": "Hefner"
+            "last_name": "Hefner",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Craig",
-            "last_name": "Goldman"
+            "last_name": "Goldman",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Dan",
-            "last_name": "Huberty"
+            "last_name": "Huberty",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "David",
-            "last_name": "Cook"
+            "last_name": "Cook",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "David",
-            "last_name": "Spiller"
+            "last_name": "Spiller",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Dawn",
-            "last_name": "Buckingham"
+            "last_name": "Buckingham",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Dennis",
-            "last_name": "Paul"
+            "last_name": "Paul",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Dewayne",
-            "last_name": "Burns"
+            "last_name": "Burns",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Drew",
-            "last_name": "Darby"
+            "last_name": "Darby",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Drew",
-            "last_name": "Springer"
+            "last_name": "Springer",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Dustin",
-            "last_name": "Burrows"
+            "last_name": "Burrows",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Ed",
-            "last_name": "Thompson"
+            "last_name": "Thompson",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Eddie",
-            "last_name": "Lucio"
+            "last_name": "Lucio",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Ernest",
-            "last_name": "Bailes"
+            "last_name": "Bailes",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Four",
-            "last_name": "Price"
+            "last_name": "Price",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Gary",
-            "last_name": "Gates"
+            "last_name": "Gates",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Gary",
-            "last_name": "Vandeaver"
+            "last_name": "Vandeaver",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Giovanni",
-            "last_name": "Capriglione"
+            "last_name": "Capriglione",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Glenn",
-            "last_name": "Rogers"
+            "last_name": "Rogers",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Greg",
-            "last_name": "Bonnen"
+            "last_name": "Bonnen",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Hugh",
-            "last_name": "Shine"
+            "last_name": "Shine",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "J.M.",
-            "last_name": "Lozano"
+            "last_name": "Lozano",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Jake",
-            "last_name": "Ellzey"
+            "last_name": "Ellzey",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "James",
-            "last_name": "Frank"
+            "last_name": "Frank",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "James",
-            "last_name": "White"
+            "last_name": "White",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Jared",
-            "last_name": "Patterson"
+            "last_name": "Patterson",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Jay",
-            "last_name": "Dean"
+            "last_name": "Dean",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Jeff",
-            "last_name": "Cason"
+            "last_name": "Cason",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Jeff",
-            "last_name": "Leach"
+            "last_name": "Leach",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Jim",
-            "last_name": "Murphy"
+            "last_name": "Murphy",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "John",
-            "last_name": "Cyrier"
+            "last_name": "Cyrier",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "John",
-            "last_name": "Frullo"
+            "last_name": "Frullo",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "John",
-            "last_name": "Kuempel"
+            "last_name": "Kuempel",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "John",
-            "last_name": "Raney"
+            "last_name": "Raney",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Justin",
-            "last_name": "Holland"
+            "last_name": "Holland",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Keith",
-            "last_name": "Bell"
+            "last_name": "Bell",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Kelly",
-            "last_name": "Hancock"
+            "last_name": "Hancock",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Ken",
-            "last_name": "King"
+            "last_name": "King",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Kyle",
-            "last_name": "Biedermann"
+            "last_name": "Biedermann",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Larry",
-            "last_name": "Taylor"
+            "last_name": "Taylor",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Matt",
-            "last_name": "Krause"
+            "last_name": "Krause",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Matt",
-            "last_name": "Schaefer"
+            "last_name": "Schaefer",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Matthew",
-            "last_name": "Shaheen"
+            "last_name": "Shaheen",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Mayes",
-            "last_name": "Middleton"
+            "last_name": "Middleton",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Mike",
-            "last_name": "Schofield"
+            "last_name": "Schofield",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Paul",
-            "last_name": "Bettencourt"
+            "last_name": "Bettencourt",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Phil",
-            "last_name": "King"
+            "last_name": "King",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Phil",
-            "last_name": "Stephenson"
+            "last_name": "Stephenson",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Reggie",
-            "last_name": "Smith"
+            "last_name": "Smith",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Sam",
-            "last_name": "Harless"
+            "last_name": "Harless",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Scott",
-            "last_name": "Sanford"
+            "last_name": "Sanford",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Stan",
-            "last_name": "Lambert"
+            "last_name": "Lambert",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Stephen",
-            "last_name": "Allison"
+            "last_name": "Allison",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Steve",
-            "last_name": "Toth"
+            "last_name": "Toth",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Tan",
-            "last_name": "Parker"
+            "last_name": "Parker",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Terry",
-            "last_name": "Wilson"
+            "last_name": "Wilson",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Todd",
-            "last_name": "Hunter"
+            "last_name": "Hunter",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Tom",
-            "last_name": "Oliverson"
+            "last_name": "Oliverson",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Tony",
-            "last_name": "Tinderholt"
+            "last_name": "Tinderholt",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Travis",
-            "last_name": "Clardy"
+            "last_name": "Clardy",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Trent",
-            "last_name": "Ashby"
+            "last_name": "Ashby",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "William",
-            "last_name": "Metcalf"
+            "last_name": "Metcalf",
+            "target_pronoun": "he",
+            "target_possessive_pronoun": "his",
+            "target_accusative_pronoun": "him"
         },
         {
             "first_name": "Angela",
-            "last_name": "Paxton"
+            "last_name": "Paxton",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Candy",
-            "last_name": "Noble"
+            "last_name": "Noble",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Cecil",
-            "last_name": "Bell"
+            "last_name": "Bell",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Donna",
-            "last_name": "Campbell"
+            "last_name": "Campbell",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Jacey",
-            "last_name": "Jetton"
+            "last_name": "Jetton",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Jane",
-            "last_name": "Nelson"
+            "last_name": "Nelson",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Joan",
-            "last_name": "Huffman"
+            "last_name": "Huffman",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Lacey",
-            "last_name": "Hull"
+            "last_name": "Hull",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Lois",
-            "last_name": "Kolkhorst"
+            "last_name": "Kolkhorst",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Lynn",
-            "last_name": "Stucky"
+            "last_name": "Stucky",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Shelby",
-            "last_name": "Slawson"
+            "last_name": "Slawson",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Stephanie",
-            "last_name": "Klick"
+            "last_name": "Klick",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         },
         {
             "first_name": "Valoree",
-            "last_name": "Swanson"
+            "last_name": "Swanson",
+            "target_pronoun": "she",
+            "target_possessive_pronoun": "her",
+            "target_accusative_pronoun": "her"
         }
     ]
 }
